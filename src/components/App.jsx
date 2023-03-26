@@ -22,6 +22,8 @@ function App() {
       case 'bad':
         setBad(prev => prev + 1);
         break;
+      default:
+        return;
     }
   };
 
